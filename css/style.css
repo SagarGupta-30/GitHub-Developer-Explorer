@@ -8,8 +8,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #0d1117;
-    color: white;
+    background: #9986d8;
+    color: rgb(255, 255, 255);
     min-height: 100vh;
     transition: 0.3s;
 }
@@ -21,13 +21,17 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: #161b22;
+    background: rgb(153, 103, 239);
     border-bottom: 1px solid #30363d;
 }
 
+
+
 header h1 {
     font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
 
 /* Theme Button */
 
@@ -37,9 +41,10 @@ header h1 {
     border-radius: 8px;
     cursor: pointer;
     background: #58a6ff;
-    color: white;
+    color: rgb(24, 22, 20);
     font-weight: bold;
     transition: 0.3s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #themeToggle:hover {
@@ -52,6 +57,8 @@ header h1 {
     max-width: 900px;
     margin: 30px auto;
     padding: 20px;
+   
+
 }
 
 #searchForm {
@@ -64,7 +71,7 @@ header h1 {
 #searchInput {
     flex: 1;
     padding: 14px;
-    border: 1px solid #30363d;
+    border: 1px solid #396495;
     border-radius: 8px;
     font-size: 16px;
 }
@@ -76,8 +83,9 @@ header h1 {
     border: none;
     border-radius: 8px;
     background: #58a6ff;
-    color: white;
+    color: rgb(21, 18, 18);
     cursor: pointer;
+    font-family:'Times New Roman', Times, serif;
     transition: 0.3s;
 }
 
@@ -89,7 +97,7 @@ header h1 {
 
 #searchError {
     margin-top: 10px;
-    color: #ef4444;
+    color: #790808;
 }
 
 /* Loader */
@@ -106,7 +114,7 @@ header h1 {
     margin: 20px auto;
     padding: 20px;
     background: #161b22;
-    border: 1px solid #ef4444;
+    border: 1px solid #670707;
     border-radius: 10px;
 }
 
