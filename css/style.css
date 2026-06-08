@@ -12,6 +12,7 @@ body {
     color: rgb(255, 255, 255);
     min-height: 100vh;
     transition: 0.3s;
+    background:   
 }
 
 /* Header */
@@ -31,6 +32,7 @@ header h1 {
     font-size: 24px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
 
 
 /* Theme Button */
@@ -78,6 +80,19 @@ header h1 {
 
 /* Search Button */
 
+.search-section{
+
+    background:rgba(255,255,255,0.05);
+
+    backdrop-filter:blur(10px);
+
+    border:1px solid rgba(255,255,255,0.1);
+
+    border-radius:20px;
+
+    padding:30px;
+}
+
 #searchForm button {
     padding: 12px 20px;
     border: none;
@@ -87,10 +102,12 @@ header h1 {
     cursor: pointer;
     font-family:'Times New Roman', Times, serif;
     transition: 0.3s;
+   
 }
 
-#searchForm button:hover {
-    opacity: 0.9;
+#searchForm button:hover{
+
+    transform:scale(1.05);
 }
 
 /* Search Error */
@@ -105,6 +122,14 @@ header h1 {
 #loader {
     text-align: center;
     margin: 20px;
+}
+
+
+@keyframes spin{
+
+    to{
+        transform:rotate(360deg);
+    }
 }
 
 /* Error Card */
@@ -211,11 +236,7 @@ header h1 {
 
 /* Footer */
 
-footer {
-    text-align: center;
-    padding: 20px;
-    margin-top: 30px;
-}
+
 
 /* Light Theme */
 
@@ -255,6 +276,8 @@ footer {
     background: #e5e7eb;
     color: #111827;
 }
+
+
 
 /* Mobile */
 
