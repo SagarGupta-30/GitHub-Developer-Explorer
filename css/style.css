@@ -8,7 +8,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #9986d8;
+    background: #945454;
     color: rgb(255, 255, 255);
     min-height: 100vh;
     transition: 0.3s;
@@ -22,7 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: rgb(153, 103, 239);
+    background: rgb(105, 49, 30);
     border-bottom: 1px solid #30363d;
 }
 
@@ -31,6 +31,7 @@ header {
 header h1 {
     font-size: 24px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(200, 143, 94);
 }
 
 
@@ -42,7 +43,7 @@ header h1 {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    background: #58a6ff;
+    background: #ffbf58;
     color: rgb(24, 22, 20);
     font-weight: bold;
     transition: 0.3s;
@@ -73,7 +74,7 @@ header h1 {
 #searchInput {
     flex: 1;
     padding: 14px;
-    border: 1px solid #396495;
+    border: 1px solid #396d95;
     border-radius: 8px;
     font-size: 16px;
 }
@@ -97,7 +98,7 @@ header h1 {
     padding: 12px 20px;
     border: none;
     border-radius: 8px;
-    background: #58a6ff;
+    background: #ffc558;
     color: rgb(21, 18, 18);
     cursor: pointer;
     font-family:'Times New Roman', Times, serif;
@@ -164,7 +165,7 @@ header h1 {
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
-    border: 1px solid #30363d;
+    border: 1px solid #6d8197;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
