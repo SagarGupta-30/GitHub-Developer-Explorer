@@ -18,7 +18,7 @@ A simple web application built using HTML, CSS and Vanilla JavaScript that allow
 
 ---
 
-## Technologies Used
+## Technologies Used....
 
 - HTML5
 - CSS3
